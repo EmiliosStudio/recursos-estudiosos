@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Recursos estudiosos</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231a73e8'%3E%3Cpath d='M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z'/%3E%3C/svg%3E">
 <link href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
 <style>
@@ -13,14 +14,10 @@
   a{color:var(--primary)}
   main{flex:1;width:100%;max-width:960px;margin:0 auto;padding:32px 24px 48px}
   sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
-  sup{top:-0.5em}
-  sub{bottom:-0.25em}
-
-  /* Cabecera */
+  sup{top:-0.5em}sub{bottom:-0.25em}
   .cab{position:sticky;top:0;z-index:20;background:#fff;border-bottom:1px solid var(--border);display:flex;align-items:center;gap:20px;padding:6px 24px;min-height:64px;flex-wrap:wrap}
   .marca{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:500;color:var(--text);text-decoration:none}
   .marca .material-icons-outlined{color:var(--primary);font-size:30px}
-  .marca img{height:36px;width:auto}
   #nav{display:flex;gap:6px;flex:1;flex-wrap:wrap}
   #nav a{padding:8px 14px;border-radius:20px;color:var(--muted);text-decoration:none;font-size:14px;font-weight:500}
   #nav a:hover{background:#f1f3f4;color:var(--text)}
@@ -31,8 +28,6 @@
   #res a small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
   #res a:hover{background:#f1f3f4}
   #res .nada{padding:12px 14px;font-size:14px;color:var(--muted)}
-
-  /* Contenido general */
   .aviso{display:flex;gap:10px;align-items:flex-start;background:#e8f0fe;color:#174ea6;border-radius:12px;padding:12px 16px;font-size:14px;line-height:1.5;margin-bottom:32px}
   .hero{padding:24px 0 8px}
   .hero h1{font-size:44px;font-weight:500;margin:0 0 20px;line-height:1.15}
@@ -41,11 +36,10 @@
   h2{font-size:22px;font-weight:500;margin:36px 0 8px}
   .botones{display:flex;flex-wrap:wrap;gap:14px;margin-top:28px}
   .botones.col{flex-direction:column;align-items:flex-start}
-  .boton{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:28px;background:var(--primary);color:#fff;text-decoration:none;font-size:16px;font-weight:500;transition:background .2s;border:1px solid var(--primary)}
+  .boton{display:inline-flex;align-items:center;gap:8px;padding:14px 28px;border-radius:28px;background:var(--primary);color:#fff;text-decoration:none;font-size:16px;font-weight:500;border:1px solid var(--primary);transition:background .2s}
   .boton:hover{background:var(--hover)}
   .boton.sec{background:#fff;color:var(--primary);border-color:var(--border)}
   .boton.sec:hover{background:#e8f0fe}
-  .boton.off{background:#f1f3f4;color:var(--muted);border-color:var(--border);opacity:.65;cursor:not-allowed}
   .boton small{font-size:12px;font-weight:500}
   .volver{display:inline-flex;align-items:center;gap:6px;color:var(--primary);text-decoration:none;font-weight:500;margin-top:28px}
   .volver:hover{text-decoration:underline}
@@ -54,8 +48,6 @@
   .migas .sep{opacity:.6}
   .ctx{font-size:14px;color:var(--muted);margin:0 0 6px}
   .cargando{color:var(--muted)}
-
-  /* Temas y apartados */
   .tema{border:1px solid var(--border);border-radius:12px;margin-bottom:12px;background:#fff}
   .tema summary{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;cursor:pointer;font-weight:500;font-size:16px;list-style:none}
   .tema summary::-webkit-details-marker{display:none}
@@ -65,80 +57,65 @@
   .ap{display:flex;justify-content:space-between;gap:12px;padding:10px 12px;border-radius:8px;color:var(--text);text-decoration:none;font-size:15px}
   .ap:hover{background:#e8f0fe;color:var(--primary)}
   .ap.nodisp{opacity:.45;cursor:not-allowed}
-  .ap.nodisp:hover{background:transparent;color:var(--text)}
   .etq{font-size:12px;color:var(--muted);white-space:nowrap}
-
-  /* Texto del apartado (modo normal) */
   .contenido{margin-top:20px}
   .contenido p{font-size:17px;line-height:1.7;margin:0 0 14px;white-space:pre-wrap;overflow-wrap:anywhere}
-  .contenido ul,.contenido ol{font-size:17px;line-height:1.7;margin:0 0 14px;padding-left:26px}
-  .contenido li{margin-bottom:6px}
   .contenido h3{font-size:20px;margin:26px 0 10px;white-space:pre-wrap}
   .contenido .figura{text-align:center;margin:18px 0}
   .contenido .figura img{max-width:100%;height:auto;border-radius:6px}
-  .enl{margin:18px 0 !important}
-  .firma{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:28px;font-size:16px;line-height:1.6}
-
-  /* Hoja con flechas: mismo ancho y tipografía que el PDF para que las flechas queden en su sitio */
   .hoja-wrap{margin-top:20px;width:100%;overflow:hidden}
-  .hoja{position:relative;width:663px;padding:20px;background:#fff;border:1px solid var(--border);border-radius:12px;transform-origin:0 0;
-    font-size:12pt;line-height:1.5;text-align:left;text-rendering:geometricPrecision;font-kerning:none}
+  .hoja{position:relative;width:663px;padding:20px;background:#fff;border:1px solid var(--border);border-radius:12px;transform-origin:0 0;font-size:12pt;line-height:1.5;text-align:left}
   .hoja p{margin:0 0 8px;font-size:12pt;line-height:1.5;overflow-wrap:anywhere;white-space:pre-wrap}
   .hoja h3{font-size:13pt;font-weight:700;margin:14px 0 6px;white-space:pre-wrap}
   .hoja .figura{text-align:center;margin:10px 0}
   .hoja .figura img{max-width:100%;height:auto;display:inline-block}
-  .flecha-pdf{position:absolute;z-index:10;transform-origin:0 12px;pointer-events:none}
-  .flecha-pdf svg{display:block}
-
-  /* Juegos incrustados */
+  .objeto-pdf{position:absolute;z-index:10;transform-origin:0 12px;pointer-events:none}
+  .objeto-pdf svg{display:block}
   .embed{margin:22px 0;border:1px solid var(--border);border-radius:12px;overflow:hidden;background:#fff}
   .marco{width:100%;max-height:80vh;background:#f1f3f4}
   .marco iframe{width:100%;height:100%;border:0;display:block}
   .embed figcaption{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 14px;font-size:14px;border-top:1px solid var(--border)}
-  .acc{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
-  .acc a,.acc button{display:inline-flex;align-items:center;gap:4px;border:0;background:none;color:var(--primary);font-size:14px;font-weight:500;cursor:pointer;text-decoration:none;padding:0}
-  .acc a:hover,.acc button:hover{text-decoration:underline}
-  .tarjeta{border:1px solid var(--border);border-radius:12px;padding:20px;margin-top:16px}
-  .tarjeta h3{margin:0 0 8px;font-size:18px;font-weight:500}
-  .tarjeta p{margin:0 0 14px;color:var(--muted);line-height:1.6}
+  .acc{display:flex;gap:16px;align-items:center}
+  .acc button{border:0;background:none;color:var(--primary);font-size:14px;font-weight:500;cursor:pointer;padding:0}
+  .acc button:hover{text-decoration:underline}
+  .tarjeta{border:1px solid var(--border);border-radius:12px;padding:24px;margin-top:16px;line-height:1.7;font-size:16px}
+  .tarjeta ul{margin:12px 0 20px;padding-left:22px}
+  .tarjeta li{margin-bottom:6px}
+  .tarjeta p{margin:0 0 14px}
+  /* Estilos del Índice principal según diseño solicitado */
+  .idx-curso{margin-bottom:32px}
+  .idx-curso-tit{font-size:28px;font-weight:700;margin:24px 0 12px;color:var(--text)}
+  .idx-asig{margin-bottom:20px}
+  .idx-asig-link{display:inline-block;font-size:18px;font-weight:500;color:var(--text);text-decoration:underline;margin-bottom:14px}
+  .idx-asig-link:hover{color:var(--primary)}
+  .idx-tema{margin-bottom:12px}
+  .idx-tema-link{display:inline-block;font-size:16px;color:var(--text);text-decoration:none;transition:transform .15s ease,color .15s ease;transform-origin:left center}
+  .idx-tema-link:hover{transform:scale(1.035);color:var(--primary)}
+  .idx-ap-row{margin:8px 0;font-size:16px;line-height:1.5}
+  .idx-ap-link{display:inline-block;color:var(--text);text-decoration:none;transition:transform .15s ease,color .15s ease;transform-origin:left center}
+  .idx-ap-link:hover{transform:scale(1.035);color:var(--primary)}
+  .idx-juego-link{font-weight:700;text-decoration:underline;color:var(--text)}
+  .idx-juego-link:hover{color:var(--primary)}
   .pdfnota{margin-top:32px;padding:14px 16px;background:var(--soft);border-radius:12px;font-size:14px;color:var(--muted)}
   .pager{display:flex;justify-content:space-between;gap:12px;margin-top:28px;flex-wrap:wrap}
-  .pager a{display:flex;flex-direction:column;gap:2px;padding:12px 16px;border:1px solid var(--border);border-radius:12px;text-decoration:none;color:var(--text);max-width:48%;font-size:14px}
-  .pager a small{color:var(--muted);font-size:12px}
+  .pager a{display:flex;flex-direction:column;gap:4px;padding:12px 16px;border:1px solid var(--border);border-radius:12px;text-decoration:none;color:var(--text);max-width:48%;min-width:200px;font-size:14px;transition:all .15s}
+  .pager a small{color:var(--muted);font-size:12px;display:inline-flex;align-items:center;gap:4px}
+  .pager a span.tit-p{font-weight:500;color:var(--primary)}
   .pager a:hover{background:#e8f0fe;border-color:var(--primary)}
-  .pager .sig{margin-left:auto;text-align:right}
-
-  /* Página de enlaces de juegos */
-  .enlaces h2{margin-top:40px}
-  .enlaces h3{font-size:18px;font-weight:500;margin:24px 0 4px}
-  .enlaces h4{font-size:15px;font-weight:500;color:var(--muted);margin:16px 0 6px}
-  .enlaces ul{margin:0 0 6px;padding-left:22px;line-height:1.8}
-  .enlaces ul ul{padding-left:20px}
-  .enlaces a{color:var(--primary);text-decoration:underline}
-  .enlaces .ap-link{text-decoration:none;font-weight:500;color:var(--text)}
-  .enlaces .ap-link:hover{color:var(--primary)}
-
-  /* Pie y aviso emergente */
+  .pager .sig{margin-left:auto;text-align:right;align-items:flex-end}
   footer{border-top:1px solid var(--border);background:var(--soft);padding:22px 24px;font-size:13px;line-height:1.7;color:var(--muted);text-align:center}
   footer a{font-weight:500;text-decoration:none}footer a:hover{text-decoration:underline}
-  #toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);background:#202124;color:#fff;padding:12px 20px;border-radius:8px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:60;max-width:90%;text-align:center}
+  #toast{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);background:#202124;color:#fff;padding:12px 20px;border-radius:8px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s;z-index:60}
   #toast.visible{opacity:1}
-
-  @media (max-width:700px){
-    .hero h1{font-size:32px}h1{font-size:28px}
-    .buscador{width:100%}.cab{padding:8px 16px}
-    main{padding:24px 16px 40px}
-    .pager a{max-width:100%}
-  }
 </style>
 </head>
 <body>
 <header class="cab">
-  <a class="marca" href="#/" id="marca"></a>
+  <a class="marca" href="#/" id="marca"><span class="material-icons-outlined">school</span><span>Recursos estudiosos</span></a>
   <nav id="nav"></nav>
   <div class="buscador">
     <span class="material-icons-outlined">search</span>
-    <input id="q" type="search" placeholder="Buscar en el sitio" autocomplete="off" aria-label="Buscar en el sitio">
+    <input id="q" type="search" placeholder="Buscar..." autocomplete="off">
     <div id="res"></div>
   </div>
 </header>
@@ -146,8 +123,7 @@
 <main id="app"><p class="cargando">Cargando...</p></main>
 
 <footer>
-  &copy; Emilio's Studio 2026. Puedes usar la información incluida en esta página web para informarte, dar clase o repasar algún tema, pero no puedes venderlo como si fuera tuyo.
-  <a href="#/copyright">Más información.</a>
+  &copy; Emilio's Studio 2026. Puedes usar la información incluida en esta página web para informarte, dar clase o repasar algún tema, pero no puedes venderlo como si fuera tuyo. <a href="#/copyright">Más información.</a>
   <a id="enlaceAuto" href="https://emiliosstudio.github.io/autoapunte/" target="_blank" rel="noopener">AutoApunte</a>.
 </footer>
 
@@ -156,35 +132,17 @@
 <script>
 (function(){
 'use strict';
-
-/* ---------- Configuración ---------- */
 var CONFIG={
   titulo:'Recursos estudiosos',
-  logo:'',   // Dirección de una imagen para el logo (opcional)
   autoapunte:'https://emiliosstudio.github.io/autoapunte/',
-  pdfsTextos:'https://drive.google.com/drive/folders/1HHflS9hA1-owAjCeHrK1usjFO8tosaZy?usp=drive_link',
   formulario:'https://docs.google.com/forms/d/e/1FAIpQLScn0y708rwlKqs6U55hpnfGPxO_cjWC3dl-tu_XH2vsByONIw/viewform'
 };
-var HOJA_W=663; // ancho de la hoja con flechas (mismo que el PDF)
-
-var datos={cursos:[]}, extras={enlaces:{},juegos:{},otros:[]}, indice=[], cache={}, pagina=0, obs=null;
+var HOJA_W=663;
+var datos={cursos:[]}, extras={juegos:{}}, indice=[], cache={}, pagina=0, obs=null;
 var $=function(id){return document.getElementById(id)};
 function esc(t){return String(t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;')}
 function norm(s){return String(s).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
-function urlLimpia(s){
-  s=String(s||'').trim();
-  var m=s.match(/<iframe[^>]*\ssrc=["']([^"']+)["']/i);
-  if(m)s=m[1];
-  s=s.replace(/&amp;/g,'&');
-  return /^https?:\/\//i.test(s)?s:'';
-}
-var toastT=null;
-function toast(m){
-  var t=$('toast');t.textContent=m;t.classList.add('visible');
-  clearTimeout(toastT);toastT=setTimeout(function(){t.classList.remove('visible')},2600);
-}
 
-/* ---------- Datos y disponibilidad ---------- */
 function normalizar(){
   if(!datos||!Array.isArray(datos.cursos))datos={cursos:[]};
   datos.cursos.forEach(function(c){
@@ -194,72 +152,60 @@ function normalizar(){
       a.temas.forEach(function(te,i){te.carpeta=te.carpeta||'tema'+(i+1);te.apartados=te.apartados||[]});
     });
   });
+  if(!extras.juegos)extras.juegos={};
 }
 function clave(a,te,p){return a.carpeta+'/'+te.carpeta+'/'+p.archivo}
 function juegosDe(a,te,p){return extras.juegos[clave(a,te,p)]||[]}
 function leerTxt(url){
   if(url in cache)return Promise.resolve(cache[url]);
-  return fetch(url,{cache:'no-store'})
-    .then(function(r){return r.ok?r.text():''})
-    .then(function(t){t=t.trim()?t:null;cache[url]=t;return t})
-    .catch(function(){cache[url]=null;return null});
+  return fetch(url,{cache:'no-store'}).then(function(r){return r.ok?r.text():''}).then(function(t){t=t.trim()?t:null;cache[url]=t;return t}).catch(function(){cache[url]=null;return null});
 }
 function disponible(a,te,p){
   return leerTxt('textos/'+clave(a,te,p)).then(function(x){return !!x||juegosDe(a,te,p).length>0});
 }
 
-/* ---------- TXT -> HTML (mismo formato que AutoApunte y el Administrador) ---------- */
 function inline(t){
   var h=esc(t);
-  h=h.replace(/\*\*([\s\S]+?)\*\*/g,'<strong>$1</strong>');
-  h=h.replace(/__([\s\S]+?)__/g,'<u>$1</u>');
-  h=h.replace(/\^([^\^\n]+?)\^/g,'<sup>$1</sup>');
-  h=h.replace(/~([^~\n]+?)~/g,'<sub>$1</sub>');
-  return h;
+  return h.replace(/\*\*([\s\S]+?)\*\*/g,'<strong>$1</strong>').replace(/__([\s\S]+?)__/g,'<u>$1</u>').replace(/\^([^\^\n]+?)\^/g,'<sup>$1</sup>').replace(/~([^~\n]+?)~/g,'<sub>$1</sub>');
 }
-function flechaHTML(x,y,ang,tam,color){
-  x=parseInt(x,10)||60;
-  y=parseInt(y,10)||60;
-  ang=parseInt(ang,10)||0;
-  tam=Math.max(24,parseInt(tam,10)||70);
-  color=color||'#1a73e8';
-  return '<div class="flecha-pdf" style="left:'+x+'px;top:'+y+'px;color:'+esc(color)+';transform:rotate('+ang+'deg)">'+
-    '<svg width="'+tam+'" height="24" viewBox="0 0 '+tam+' 24">'+
-    '<line x1="2" y1="12" x2="'+(tam-10)+'" y2="12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>'+
-    '<polyline points="'+(tam-16)+',6 '+(tam-6)+',12 '+(tam-16)+',18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>'+
-    '</svg></div>';
+function objetoHTML(tipo,x,y,ang,tam,color){
+  x=parseInt(x,10)||60;y=parseInt(y,10)||60;ang=parseInt(ang,10)||0;tam=Math.max(24,parseInt(tam,10)||70);color=color||'#1a73e8';
+  var svg='';
+  if(tipo==='linea-r'){
+    svg='<svg width="'+tam+'" height="24" viewBox="0 0 '+tam+' 24"><line x1="2" y1="12" x2="'+(tam-2)+'" y2="12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>';
+  }else if(tipo==='linea-c'){
+    svg='<svg width="'+tam+'" height="24" viewBox="0 0 '+tam+' 24"><path d="M 2 12 Q '+(tam/2)+' 2 '+(tam-2)+' 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>';
+  }else if(tipo==='flecha-c'){
+    svg='<svg width="'+tam+'" height="24" viewBox="0 0 '+tam+' 24"><path d="M 2 16 Q '+(tam/2)+' 2 '+(tam-10)+' 12" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><polyline points="'+(tam-16)+',6 '+(tam-6)+',12 '+(tam-16)+',18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  }else{
+    svg='<svg width="'+tam+'" height="24" viewBox="0 0 '+tam+' 24"><line x1="2" y1="12" x2="'+(tam-10)+'" y2="12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><polyline points="'+(tam-16)+',6 '+(tam-6)+',12 '+(tam-16)+',18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  }
+  return '<div class="objeto-pdf" style="left:'+x+'px;top:'+y+'px;color:'+esc(color)+';transform:rotate('+ang+'deg)">'+svg+'</div>';
 }
 function recursoHTML(j){
-  var url=urlLimpia(j.url);if(!url)return '';
-  var abrir=urlLimpia(j.abrir)||url;
-  var tit=j.titulo||'Actividad interactiva';
-  if(j.tipo==='enlace'){
-    return '<p class="enl"><a class="boton sec" href="'+esc(abrir)+'" target="_blank" rel="noopener">'+esc(tit)+'<span class="material-icons-outlined">open_in_new</span></a></p>';
+  var iframeHtml=j.url||'';
+  if(!iframeHtml && j.enlace){
+    iframeHtml='<iframe src="'+esc(j.enlace)+'" allowfullscreen></iframe>';
   }
-  var alto=parseInt(j.alto,10)||520;
-  return '<figure class="embed"><div class="marco" style="height:'+alto+'px">'+
-    '<iframe src="'+esc(url)+'" title="'+esc(tit)+'" loading="lazy" allow="fullscreen; autoplay; clipboard-write; gamepad" allowfullscreen '+
-    'sandbox="allow-scripts allow-same-origin allow-popups allow-forms allow-pointer-lock allow-modals"></iframe></div>'+
-    '<figcaption><span>'+esc(tit)+'</span><span class="acc">'+
+  var extraLink=j.enlace?'<a href="'+esc(j.enlace)+'" target="_blank" rel="noopener" style="text-decoration:none;font-weight:500">Abrir en pestaña</a>':'';
+  return '<figure class="embed"><div class="marco" style="height:540px">'+iframeHtml+'</div>'+
+    '<figcaption><span>'+esc(j.titulo||'Actividad interactiva')+'</span><span class="acc">'+extraLink+
     '<button type="button" data-full><span class="material-icons-outlined">fullscreen</span>Pantalla completa</button>'+
-    '<a href="'+esc(abrir)+'" target="_blank" rel="noopener"><span class="material-icons-outlined">open_in_new</span>Abrir en otra pestaña</a>'+
     '</span></figcaption></figure>';
 }
 function parsear(txt){
   var html='';
-  txt=txt.replace(/\r\n?/g,'\n').replace(/\s*(\[(?:fotos\/[^\]]+|embed:[^\]]+|flecha:[^\]]+)\])\s*/g,'\n\n$1\n\n');
+  txt=txt.replace(/\r\n?/g,'\n').replace(/\s*(\[(?:fotos\/[^\]]+|linea-[rc]:[^\]]+|flecha-[rc]:[^\]]+)\])\s*/g,'\n\n$1\n\n');
   txt.split(/\n{2,}/).forEach(function(b){
     var buf=[];
     function vaciar(){if(buf.length){html+='<p>'+buf.map(inline).join('<br>')+'</p>';buf=[]}}
     b.split('\n').forEach(function(l){
       if(!l.trim())return;
       var lt=l.trim();
-      var mf=lt.match(/^\[flecha:(-?\d+),(-?\d+),(-?\d+),(\d+)(?:,(#[0-9a-fA-F]{3,6}))?\]$/);
+      var mo=lt.match(/^\[(linea-r|linea-c|flecha-r|flecha-c):(-?\d+),(-?\d+),(-?\d+),(\d+)(?:,(#[0-9a-fA-F]{3,6}))?\]$/);
       var f=lt.match(/^\[(fotos\/[^\]]+)\]$/);
-      var e=lt.match(/^\[embed:([^\]|]+)(?:\|(\d{2,4}))?\]$/);
-      if(mf){vaciar();html+=flechaHTML(mf[1],mf[2],mf[3],mf[4],mf[5])}
+      if(mo){vaciar();html+=objetoHTML(mo[1],mo[2],mo[3],mo[4],mo[5],mo[6])}
       else if(f){vaciar();html+='<div class="figura"><img src="textos/'+esc(f[1])+'" alt="" loading="lazy"></div>'}
-      else if(e){vaciar();html+=recursoHTML({url:e[1],alto:e[2]})}
       else if(/^#{2,3}\s+/.test(lt)){vaciar();html+='<h3>'+inline(lt.replace(/^#{2,3}\s+/,''))+'</h3>'}
       else buf.push(l.replace(/[\r\n]+$/g,''));
     });
@@ -268,7 +214,6 @@ function parsear(txt){
   return html;
 }
 
-/* ---------- Hoja con flechas: se reduce en bloque si no cabe ---------- */
 function ajustarHoja(){
   var w=$('hojaWrap'),h=$('hoja');if(!w||!h)return;
   var disp=w.clientWidth;if(!disp)return;
@@ -279,41 +224,24 @@ function ajustarHoja(){
 }
 window.addEventListener('resize',ajustarHoja);
 
-/* ---------- Piezas de página ---------- */
 function migas(l){
-  return '<nav class="migas">'+l.map(function(x,i){
-    return(x[1]&&i<l.length-1)?'<a href="'+x[1]+'">'+esc(x[0])+'</a>':'<span>'+esc(x[0])+'</span>';
-  }).join('<span class="sep">/</span>')+'</nav>';
+  return '<nav class="migas">'+l.map(function(x,i){return(x[1]&&i<l.length-1)?'<a href="'+x[1]+'">'+esc(x[0])+'</a>':'<span>'+esc(x[0])+'</span>'}).join('<span class="sep">/</span>')+'</nav>';
 }
-function volver(h,t){return '<a class="volver" href="'+h+'"><span class="material-icons-outlined">arrow_back</span>'+(t||'Volver atrás')+'</a>'}
-function titulo(t){document.title=t+' - '+CONFIG.titulo}
-function formularioHTML(){
-  return recursoHTML({titulo:'Formulario de contacto',url:CONFIG.formulario+'?embedded=true',abrir:CONFIG.formulario,alto:760});
-}
+function volver(h,t){return '<a class="volver" href="'+h+'"><span class="material-icons-outlined">arrow_back</span>'+(t||'Volver')+'</a>'}
+function titulo(t){document.title=t?t+' - '+CONFIG.titulo:CONFIG.titulo}
+function recortar(s,max){s=String(s);return s.length>max?s.slice(0,max).trim()+'…':s}
 
-/* ---------- Páginas ---------- */
 function pInicio(){
-  document.title=CONFIG.titulo;
+  titulo('');
   var botones=datos.cursos.map(function(c,i){return '<a class="boton" href="#/curso/'+i+'">'+esc(c.nombre)+'</a>'}).join('');
-  $('app').innerHTML=
-    '<div class="aviso"><span class="material-icons-outlined">info</span><span>Muchos de los juegos incrustados en esta página no funcionan bien en dispositivos móviles, salvo los enlaces sueltos. <a href="#/info">Más información.</a></span></div>'+
-    '<section class="hero"><h1>'+esc(CONFIG.titulo)+'</h1>'+
-    '<p>Descubre un montón de recursos gratuitos de muchas asignaturas, y muchos cursos.</p>'+
-    '<p>Materiales, textos y actividades creadas y diseñadas por Emilio\'s Studio.</p>'+
-    '<p>Elige tu curso, asignatura y recursos necesarios, y... a estudiar montón!</p>'+
-    '<div class="botones">'+botones+'<a class="boton sec" href="#/otros">Otros recursos</a></div></section>';
+  $('app').innerHTML='<section class="hero"><h1>'+esc(CONFIG.titulo)+'</h1>'+
+    '<p>Recursos educativos de todas las asignaturas.</p>'+
+    '<div class="botones">'+botones+'<a class="boton sec" href="#/indice">Índice principal</a><a class="boton sec" href="#/otros">Otros recursos</a></div></section>';
 }
 function pCurso(c,ci){
   titulo(c.nombre);
   var asigs=c.asignaturas.map(function(a,ai){return '<a class="boton" href="#/asig/'+ci+'/'+ai+'">'+esc(a.nombre)+'</a>'}).join('');
-  var enl=(extras.enlaces[c.nombre]||[]).map(function(e){
-    var u=urlLimpia(e.url);if(!u)return '';
-    return '<a class="boton sec" href="'+esc(u)+'" target="_blank" rel="noopener">'+esc(e.titulo||u)+'<span class="material-icons-outlined">open_in_new</span></a>';
-  }).join('');
-  $('app').innerHTML=migas([['Inicio','#/'],[c.nombre]])+
-    '<h1>'+esc(c.nombre)+'</h1>'+
-    '<p class="lead">Bien! Sabiendo que quieres materiales de '+esc(c.nombre)+', elige ahora tu asignatura.</p>'+
-    '<div class="botones col">'+asigs+enl+'</div>'+volver('#/');
+  $('app').innerHTML=migas([['Inicio','#/'],[c.nombre]])+'<h1>'+esc(c.nombre)+'</h1><div class="botones col">'+asigs+'</div>'+volver('#/');
 }
 function pAsig(c,ci,a,ai){
   titulo(a.nombre);
@@ -323,193 +251,146 @@ function pAsig(c,ci,a,ai){
     }).join('');
     return '<details class="tema"'+(ti===0?' open':'')+'><summary><span>'+esc(te.nombre)+'</span><span class="material-icons-outlined">expand_more</span></summary><ul class="aps">'+aps+'</ul></details>';
   }).join('');
-  $('app').innerHTML=migas([['Inicio','#/'],[c.nombre,'#/curso/'+ci],[a.nombre]])+
-    '<h1>'+esc(a.nombre)+'</h1><p class="lead">Elige un tema y el apartado que quieres estudiar.</p>'+
-    '<div style="margin-top:24px">'+(temas||'<p class="cargando">Todavía no hay temas en esta asignatura.</p>')+'</div>'+volver('#/curso/'+ci);
+  $('app').innerHTML=migas([['Inicio','#/'],[c.nombre,'#/curso/'+ci],[a.nombre]])+'<h1>'+esc(a.nombre)+'</h1><div style="margin-top:24px">'+(temas||'<p>Sin temas.</p>')+'</div>'+volver('#/curso/'+ci);
   var tok=pagina;
   a.temas.forEach(function(te,ti){
     te.apartados.forEach(function(p,pi){
       disponible(a,te,p).then(function(ok){
         if(ok||tok!==pagina)return;
         var el=document.querySelector('a.ap[data-k="'+ti+'.'+pi+'"]');if(!el)return;
-        el.classList.add('nodisp');el.removeAttribute('href');
-        el.querySelector('.etq').textContent='No disponible';
-        el.addEventListener('click',function(e){e.preventDefault();toast('No está disponible: este apartado todavía no tiene contenido.')});
+        el.classList.add('nodisp');el.removeAttribute('href');el.querySelector('.etq').textContent='No disponible';
+        el.addEventListener('click',function(e){e.preventDefault()});
       });
     });
   });
 }
 async function pAp(c,ci,a,ai,te,ti,ap,pi){
-  var tok=pagina;
-  $('app').innerHTML='<p class="cargando">Cargando...</p>';
+  var tok=pagina;$('app').innerHTML='<p class="cargando">Cargando...</p>';
   var txt=await leerTxt('textos/'+clave(a,te,ap));
   var oks=await Promise.all(te.apartados.map(function(x){return disponible(a,te,x)}));
   if(tok!==pagina)return;
   titulo(ap.nombre);
   var juegos=juegosDe(a,te,ap);
   var base='#/asig/'+ci+'/'+ai;
-  if(!txt&&!juegos.length){
-    $('app').innerHTML=migas([['Inicio','#/'],[c.nombre,'#/curso/'+ci],[a.nombre,base],[te.nombre]])+
-      '<h1>'+esc(ap.nombre)+'</h1><p class="lead">No está disponible: este apartado todavía no tiene contenido.</p>'+volver(base);
-    return;
-  }
-  var ant=-1,sig=-1,i;
-  for(i=pi-1;i>=0;i--)if(oks[i]){ant=i;break}
-  for(i=pi+1;i<te.apartados.length;i++)if(oks[i]){sig=i;break}
-  function lnk(idx,cls,et){
-    return '<a class="'+cls+'" href="#/ap/'+ci+'/'+ai+'/'+ti+'/'+idx+'"><small>'+et+'</small>'+esc(te.apartados[idx].nombre)+'</a>';
-  }
-  var conFlechas=!!txt&&/\[flecha:/.test(txt);
+  var conFlechas=!!txt&&/\[(linea-[rc]|flecha-[rc])/.test(txt);
   var cuerpo=txt?parsear(txt):'';
-  var bloque=conFlechas
-    ?'<div class="hoja-wrap" id="hojaWrap"><div class="hoja" id="hoja">'+cuerpo+'</div></div>'
-    :'<article class="contenido">'+cuerpo+'</article>';
+  var bloque=conFlechas?'<div class="hoja-wrap" id="hojaWrap"><div class="hoja" id="hoja">'+cuerpo+'</div></div>':'<article class="contenido">'+cuerpo+'</article>';
+  var autoUrl=CONFIG.autoapunte+'?c='+ci+'&a='+ai+'&t='+ti+'&p='+pi;
+
+  var prevIdx=-1,nextIdx=-1;
+  for(var i=pi-1;i>=0;i--){if(oks[i]){prevIdx=i;break}}
+  for(var j=pi+1;j<te.apartados.length;j++){if(oks[j]){nextIdx=j;break}}
+
+  var pagerHtml='';
+  if(prevIdx!==-1||nextIdx!==-1){
+    pagerHtml='<div class="pager">';
+    if(prevIdx!==-1){
+      pagerHtml+='<a href="#/ap/'+ci+'/'+ai+'/'+ti+'/'+prevIdx+'"><small><span class="material-icons-outlined" style="font-size:16px">arrow_back</span>Anterior</small><span class="tit-p">'+esc(recortar(te.apartados[prevIdx].nombre,38))+'</span></a>';
+    }
+    if(nextIdx!==-1){
+      pagerHtml+='<a class="sig" href="#/ap/'+ci+'/'+ai+'/'+ti+'/'+nextIdx+'"><small>Siguiente<span class="material-icons-outlined" style="font-size:16px">arrow_forward</span></small><span class="tit-p">'+esc(recortar(te.apartados[nextIdx].nombre,38))+'</span></a>';
+    }
+    pagerHtml+='</div>';
+  }
+
   $('app').innerHTML=migas([['Inicio','#/'],[c.nombre,'#/curso/'+ci],[a.nombre,base],[te.nombre]])+
-    '<h1>'+esc(ap.nombre)+'</h1>'+
-    '<p class="ctx">'+esc(c.nombre+' · '+a.nombre+' · '+te.nombre)+'</p>'+
-    bloque+
+    '<h1>'+esc(ap.nombre)+'</h1>'+bloque+
     (juegos.length?'<section><h2>Juegos y actividades</h2>'+juegos.map(recursoHTML).join('')+'</section>':'')+
-    '<div class="pdfnota">¿Quieres este apartado en PDF? Crea el tuyo con <a href="'+esc(CONFIG.autoapunte)+'" target="_blank" rel="noopener">AutoApunte</a>.</div>'+
-    '<div class="pager">'+(ant>=0?lnk(ant,'ant','Anterior'):'<span></span>')+(sig>=0?lnk(sig,'sig','Siguiente'):'')+'</div>'+
-    volver(base);
+    '<div class="pdfnota">¿Quieres este apartado en PDF? Genéralo con <a href="'+esc(autoUrl)+'" target="_blank" rel="noopener">AutoApunte</a>.</div>'+
+    pagerHtml+
+    volver(base,'Volver a '+esc(a.nombre));
   if(conFlechas){
-    var h=$('hoja');
-    if(window.ResizeObserver){obs=new ResizeObserver(ajustarHoja);obs.observe(h)}
+    var h=$('hoja');if(window.ResizeObserver){obs=new ResizeObserver(ajustarHoja);obs.observe(h)}
     ajustarHoja();
   }
 }
+function formatearTituloTema(nombre){
+  var idx=nombre.indexOf(':');
+  if(idx>-1){
+    return '<strong>'+esc(nombre.slice(0,idx+1))+'</strong>'+esc(nombre.slice(idx+1));
+  }
+  return esc(nombre);
+}
+function pIndice(){
+  titulo('Índice principal');
+  var html=datos.cursos.map(function(c,ci){
+    var asigs=c.asignaturas.map(function(a,ai){
+      var temas=a.temas.map(function(te,ti){
+        var aps=te.apartados.map(function(p,pi){
+          var juegos=juegosDe(a,te,p).filter(function(j){return !!(j.enlace&&j.enlace.trim())});
+          var linksJuegos=juegos.map(function(j){
+            return ' &rarr; <a class="idx-juego-link" href="'+esc(j.enlace)+'" target="_blank" rel="noopener">Juego</a>';
+          }).join('');
+          return '<div class="idx-ap-row"><a class="idx-ap-link" href="#/ap/'+ci+'/'+ai+'/'+ti+'/'+pi+'">'+esc(p.nombre)+'</a>'+linksJuegos+'</div>';
+        }).join('');
+        return '<div class="idx-tema"><a class="idx-tema-link" href="#/asig/'+ci+'/'+ai+'">'+formatearTituloTema(te.nombre)+'</a>'+aps+'</div>';
+      }).join('');
+      return '<div class="idx-asig"><a class="idx-asig-link" href="#/asig/'+ci+'/'+ai+'">'+esc(a.nombre)+'</a>'+temas+'</div>';
+    }).join('');
+    return '<div class="idx-curso"><div class="idx-curso-tit">'+esc(c.nombre)+'</div>'+asigs+'</div>';
+  }).join('');
+  $('app').innerHTML=migas([['Inicio','#/'],['Índice principal']])+html+volver('#/');
+}
 function pOtros(){
   titulo('Otros recursos');
-  function it(t,h,ext){
-    return '<a class="boton" href="'+esc(h)+'"'+(ext?' target="_blank" rel="noopener"':'')+'>'+esc(t)+(ext?'<span class="material-icons-outlined">open_in_new</span>':'')+'</a>';
-  }
-  var botones=it('PDFs de los textos',CONFIG.pdfsTextos,true)+
-    '<span class="boton off" title="Próximamente">PDFs de los juegos<small>Próximamente</small></span>'+
-    it('Enlaces de los juegos e índice principal','#/enlaces')+
-    it('Créditos','#/creditos')+
-    it('Contacto','#/contacto')+
-    it('AutoApunte',CONFIG.autoapunte,true);
-  var mas=(extras.otros||[]).map(function(o){
-    var u=urlLimpia(o.url),ab=urlLimpia(o.abrir)||u;
-    return '<article class="tarjeta"><h3>'+esc(o.titulo||'Recurso')+'</h3>'+
-      (o.descripcion?'<p>'+esc(o.descripcion)+'</p>':'')+
-      (o.embed?recursoHTML(o):(ab?'<a class="boton sec" href="'+esc(ab)+'" target="_blank" rel="noopener">Abrir<span class="material-icons-outlined">open_in_new</span></a>':''))+
-      '</article>';
-  }).join('');
   $('app').innerHTML=migas([['Inicio','#/'],['Otros recursos']])+'<h1>Otros recursos</h1>'+
-    '<div class="botones col">'+botones+'</div>'+
-    (mas?'<h2>Más recursos</h2>'+mas:'')+volver('#/');
-}
-function pEnlaces(){
-  titulo('Enlaces de los juegos');
-  var html='',hay=false;
-  datos.cursos.forEach(function(c,ci){
-    var bc='';
-    c.asignaturas.forEach(function(a,ai){
-      var ba='';
-      a.temas.forEach(function(te,ti){
-        var bt='';
-        te.apartados.forEach(function(p,pi){
-          var js=juegosDe(a,te,p).filter(function(j){return urlLimpia(j.abrir||j.url)});
-          if(!js.length)return;
-          bt+='<li><a class="ap-link" href="#/ap/'+ci+'/'+ai+'/'+ti+'/'+pi+'">'+esc(p.nombre)+'</a><ul>'+
-            js.map(function(j){
-              return '<li><a href="'+esc(urlLimpia(j.abrir||j.url))+'" target="_blank" rel="noopener">'+esc(j.titulo||'Juego')+'</a></li>';
-            }).join('')+'</ul></li>';
-        });
-        if(bt)ba+='<h4>'+esc(te.nombre)+'</h4><ul>'+bt+'</ul>';
-      });
-      if(ba)bc+='<h3>'+esc(a.nombre)+'</h3>'+ba;
-    });
-    if(bc){hay=true;html+='<h2>'+esc(c.nombre)+'</h2>'+bc}
-  });
-  $('app').innerHTML=migas([['Inicio','#/'],['Otros recursos','#/otros'],['Enlaces de los juegos']])+
-    '<h1>Enlaces de los juegos e índice principal</h1>'+
-    '<p class="lead">Todos los juegos en un enlace directo. Pulsa sobre el título subrayado para abrirlo en otra pestaña; así suelen funcionar mejor en móviles y tablets.</p>'+
-    '<div class="enlaces">'+(hay?html:'<p class="cargando" style="margin-top:20px">Todavía no hay juegos registrados.</p>')+'</div>'+volver('#/otros');
-}
-function pContacto(){
-  titulo('Contacto');
-  $('app').innerHTML=migas([['Inicio','#/'],['Otros recursos','#/otros'],['Contacto']])+'<h1>Contacto</h1>'+
-    '<p class="lead">Si quieres colaborar conmigo, o lo que sea, aquí tienes un pequeñísimo formulario para que te pongas en contacto conmigo.</p>'+
-    formularioHTML()+volver('#/otros');
+    '<div class="botones col">'+
+    '<a class="boton" href="#/indice">Índice principal</a>'+
+    '<a class="boton" href="'+esc(CONFIG.autoapunte)+'" target="_blank" rel="noopener">AutoApunte<span class="material-icons-outlined">open_in_new</span></a>'+
+    '<a class="boton sec" href="#/creditos">Créditos y contacto</a>'+
+    '</div>'+volver('#/');
 }
 function pCreditos(){
-  titulo('Créditos');
-  $('app').innerHTML=migas([['Inicio','#/'],['Otros recursos','#/otros'],['Créditos']])+'<h1>Créditos</h1>'+
-    `<div class="contenido">
-      <p>Entre tantas cosas que hemos aprendido en esta página, desde aquí quiero dar las gracias a todos los que han colaborado con este proyecto, nombrándolos todos aquí:</p>
-      <ul>
-        <li>Emilio's Studio (Emilio José Arjona, autor de esta web)</li>
-        <li><a href="https://es.educaplay.com" target="_blank" rel="noopener">Educaplay</a> (Página donde se han hecho todos los juegos)</li>
-        <li><a href="https://gemini.google.com" target="_blank" rel="noopener">Google Gemini</a> (Ayuda para crear todos los juegos)</li>
-        <li><a href="https://pages.github.com" target="_blank" rel="noopener">GitHub Pages</a> (Plataforma para subir esta maravillosa web)</li>
-        <li><a href="https://www.canva.com" target="_blank" rel="noopener">Canva</a> (App de diseño para darle vida a las fotos que hemos subido, como las tablas de mates, entre otras cosas)</li>
-        <li><a href="https://claude.ai" target="_blank" rel="noopener">Claude</a> (Creación de esta web)</li>
-      </ul>
-      <p>Todo esto lo he hecho yo, un alumno de 1º de ESO, en el curso 26/27 (y que seguirá por muchos años), simplemente por un objetivo: ayudar a alumnos, profesores... a mejorar los estudios tanto por lectura como por juegos. Si estás aquí, gracias por ayudarme aunque sea viendo esta web, con eso es para mí todo un logro. Todo esto me ha costado tiempo, esfuerzo, y sobre todo, dedicación, que no todos los días puedo hacer esta web, tanto escribiendo textos, como creando juegos, y dándole forma a esta página web. Desde aquí, te doy un abrazo enorme, y si quieres colaborar conmigo, o lo que sea, te dejo por aquí un pequeñísimo formulario, para que te pongas en contacto conmigo. Gracias de corazón.</p>
-    </div>`+
-    formularioHTML()+volver('#/otros');
-}
-function pInfo(){
-  titulo('Información');
-  $('app').innerHTML=migas([['Inicio','#/'],['Información']])+'<h1>Información</h1>'+
-    `<div class="contenido">
-      <p>Desde nuestra publicación, hemos descubierto que parte de nuestros juegos que hemos puesto en cada apartado que se abren en dispositivos móviles (como tablets o los propios móviles), no funcionan bien, ya sean de Pasapalabra, Quizes, u otros tipos. No sabemos qué tipos de juegos dan errores en estos dispositivos ni en qué dispositivos.</p>
-      <p>Te contamos esto porque nos han contactado personas con este tipo de errores, y al meternos en móviles distintos, vemos que en cada versión o marca de móvil tiene sus respectivos errores.</p>
-      <p>Si te ocurre este problema, te recomendamos que pruebes estas ideas:</p>
-      <ol>
-        <li>Dirígete a la página de esta web <a href="#/enlaces">Enlaces de juegos</a>, donde encontrarás todos los juegos en un enlace (no ponemos los enlaces directos; necesitas clickar sobre el título subrayado, ahí tienes el enlace que te redirigirá automáticamente) y desde la página web directa, seguramente te dejará</li>
-        <li>Si en los móviles o tablets te sigue ocurriendo, prueba en un ordenador (portátil o sobremesa, funcionan en ambos)</li>
-        <li>Si no te deja de ninguna manera, es posible que el enlace haya cambiado. Si es esto, contáctanos e intentaremos responderte lo antes posible, contándonos cuál es el juego que no te deja, y nos preocuparemos en hacer el juego cuanto antes.</li>
-      </ol>
-      <p>Recuerda que tienes la sección contacto, y la página de enlaces de juegos aquí debajo, por si lo necesitaras.</p>
-      <div class="firma"><span>Emilio José Arjona,<br>creador de Recursos estudiosos</span><span>23/10/2026</span></div>
-    </div>
-    <div class="botones">
-      <a class="boton sec" href="#/enlaces">Enlaces de juegos e índice principal</a>
-      <a class="boton sec" href="#/contacto">Contacto</a>
-    </div>`+volver('#/','Volver al menú principal');
+  titulo('Créditos y contacto');
+  $('app').innerHTML=migas([['Inicio','#/'],['Créditos y contacto']])+'<h1>Créditos y contacto</h1>'+
+    '<div class="tarjeta">'+
+    '<p>Entre tantas cosas que hemos aprendido en esta página, desde aquí quiero dar las gracias a todos los que han colaborado con este proyecto, nombrándolos todos aquí:</p>'+
+    '<ul>'+
+    '<li><strong>Emilio\'s Studio</strong> (Emilio José Arjona, autor de esta web)</li>'+
+    '<li><strong>Educaplay</strong> (Página donde se han hecho todos los juegos)</li>'+
+    '<li><strong>Google Gemini</strong> (Ayuda para crear todos los juegos)</li>'+
+    '<li><strong>Google Sites</strong> (El principio de esta página web)</li>'+
+    '<li><strong>Canva</strong> (App de diseño para darle vida a las fotos que hemos subido, como las tablas de mates)</li>'+
+    '<li><strong>Claude</strong> (Dándole vida a esta página web)</li>'+
+    '</ul>'+
+    '<p>Todo esto lo he hecho yo mismo simplemente por un objetivo: ayudar a alumnos, profesores... a mejorar los estudios tanto por lectura como por juegos. Si estás aquí, gracias por ayudarme aunque sea viendo esta web, con eso es para mí todo un logro. Todo esto me ha costado tiempo, esfuerzo, y sobre todo, dedicación, que no todos los días puedo hacer esta web, tanto escribiendo textos, como creando juegos, y dándole forma a esta página web. Desde aquí, te doy un abrazo enorme, y si quieres colaborar conmigo, o lo que sea, te dejo por aquí un pequeñísimo formulario, para que te pongas en contacto conmigo. Gracias de corazón.</p>'+
+    '<div class="botones" style="margin-top:20px"><a class="boton" href="'+esc(CONFIG.formulario)+'" target="_blank" rel="noopener">Abrir formulario de contacto<span class="material-icons-outlined">open_in_new</span></a></div>'+
+    '</div>'+
+    volver('#/');
 }
 function pCopyright(){
   titulo('Copyright');
   $('app').innerHTML=migas([['Inicio','#/'],['Copyright']])+'<h1>Copyright</h1>'+
-    `<div class="contenido">
-      <p>En esta página, no disponemos de copyright comprado, no lo ponemos porque sí; todo esto lleva un trabajo detrás inmenso: escribir los textos, diseñar los juegos, colocar y preparar las fotos, crear las páginas... Para algunas cosas, y tengo que decirlo, ayuda un poco la IA en los juegos, pero todo se escribe a mano, teclado, y pasión. No se hace por diversión, se hace por ayudar a otras personas con los estudios. Hay cosas que se ponen, hay cosas que se quitan, pero todo esto, requiere tiempo, cosa que no tengo mucho porque tengo extraescolares, estudios, deberes, y muchas más cosas. No me enrollo más, pero te digo que:</p>
-      <ul>
-        <li>Puedes usar esto para ayudar a enseñar, a crear contenidos, a crear cosas.</li>
-        <li>No pongas como si lo hubieras creado tú. Puedes copiar los textos, pegarlos, imprimirlos, pero no ponerles tú marca.</li>
-      </ul>
-      <p>Solamente con respetar esto ya me haces feliz.</p>
-      <div class="firma"><span>Emilio José Arjona</span><span>28/10/2026</span></div>
-    </div>`+volver('#/','Volver al menú inicial');
+    '<div class="tarjeta">'+
+    '<p>En esta página, no disponemos de copyright comprado, no lo ponemos porque sí; todo esto lleva un trabajo detrás inmenso: escribir los textos, diseñar los juegos, colocar y preparar las fotos, crear las páginas... Para algunas cosas, y tengo que decirlo, ayuda un poco la IA en los juegos, pero todo se escribe a mano, teclado, y pasión. No se hace por diversión, se hace por ayudar a otras personas con los estudios. Hay cosas que se ponen, hay cosas que se quitan, pero todo esto, requiere tiempo, cosa que no tengo mucho porque tengo extraescolares, estudios, deberes, y muchas más cosas. No me enrollo más, pero te digo que:</p>'+
+    '<ul>'+
+    '<li>Puedes usar esto para ayudar a enseñar, a crear contenidos, a crear cosas.</li>'+
+    '<li>No pongas como si lo hubieras creado tú. Puedes copiar los textos, pegarlos, imprimirlos, pero no ponerles tú marca.</li>'+
+    '</ul>'+
+    '<p>Solamente con respetar esto ya me haces feliz.</p>'+
+    '</div>'+
+    volver('#/');
 }
 
-/* ---------- Enrutador ---------- */
 function pintar(){
-  pagina++;
-  if(obs){obs.disconnect();obs=null}
-  $('res').style.display='none';
-  window.scrollTo(0,0);
+  pagina++;if(obs){obs.disconnect();obs=null}
+  $('res').style.display='none';window.scrollTo(0,0);
   var p=location.hash.replace(/^#\/?/,'').split('/').map(function(x){try{return decodeURIComponent(x)}catch(e){return x}});
   var r=p[0]||'inicio';
   var c=datos.cursos[p[1]],a=c&&c.asignaturas[p[2]],te=a&&a.temas[p[3]],ap=te&&te.apartados[p[4]];
   if(r==='curso'&&c)return pCurso(c,p[1]);
   if(r==='asig'&&a)return pAsig(c,p[1],a,p[2]);
   if(r==='ap'&&ap)return pAp(c,p[1],a,p[2],te,p[3],ap,parseInt(p[4],10));
+  if(r==='indice')return pIndice();
   if(r==='otros')return pOtros();
-  if(r==='enlaces')return pEnlaces();
-  if(r==='contacto')return pContacto();
   if(r==='creditos')return pCreditos();
-  if(r==='info')return pInfo();
   if(r==='copyright')return pCopyright();
   pInicio();
 }
 
-/* ---------- Cabecera, navegación y buscador ---------- */
 function construir(){
-  $('marca').innerHTML=(CONFIG.logo?'<img src="'+esc(CONFIG.logo)+'" alt="">':'<span class="material-icons-outlined">school</span>')+'<span>'+esc(CONFIG.titulo)+'</span>';
-  $('nav').innerHTML=datos.cursos.map(function(c,i){return '<a href="#/curso/'+i+'">'+esc(c.nombre)+'</a>'}).join('')+'<a href="#/otros">Otros recursos</a>';
+  $('nav').innerHTML=datos.cursos.map(function(c,i){return '<a href="#/curso/'+i+'">'+esc(c.nombre)+'</a>'}).join('')+
+    '<a href="#/indice">Índice</a><a href="#/otros">Otros recursos</a><a href="#/creditos">Créditos y contacto</a>';
   $('enlaceAuto').href=CONFIG.autoapunte;
   indice=[];
   datos.cursos.forEach(function(c,ci){c.asignaturas.forEach(function(a,ai){a.temas.forEach(function(te,ti){te.apartados.forEach(function(p,pi){
@@ -519,14 +400,9 @@ function construir(){
 $('q').addEventListener('input',function(){
   var q=norm(this.value).trim(),res=$('res');
   if(!q){res.style.display='none';return}
-  var terminos=q.split(/\s+/);
-  var hits=indice.filter(function(x){return terminos.every(function(t){return x.n.indexOf(t)>-1})}).slice(0,8);
+  var hits=indice.filter(function(x){return x.n.indexOf(q)>-1}).slice(0,8);
   res.innerHTML=hits.length?hits.map(function(h){return '<a href="'+h.h+'">'+esc(h.t)+'<small>'+esc(h.ctx)+'</small></a>'}).join(''):'<div class="nada">Sin resultados</div>';
   res.style.display='block';
-});
-$('q').addEventListener('keydown',function(e){
-  if(e.key==='Enter'){var a=$('res').querySelector('a');if(a)location.hash=a.getAttribute('href')}
-  if(e.key==='Escape'){$('res').style.display='none'}
 });
 document.addEventListener('click',function(e){
   if(!e.target.closest('.buscador'))$('res').style.display='none';
@@ -534,18 +410,16 @@ document.addEventListener('click',function(e){
   if(b){var f=b.closest('figure').querySelector('iframe');if(f&&f.requestFullscreen)f.requestFullscreen()}
 });
 
-/* ---------- Inicio ---------- */
 Promise.all([
   fetch('datos.json',{cache:'no-store'}).then(function(r){return r.json()}),
   fetch('extras.json',{cache:'no-store'}).then(function(r){return r.ok?r.json():{}}).catch(function(){return {}})
 ]).then(function(r){
   datos=r[0];normalizar();
-  var x=r[1]||{};
-  extras={enlaces:x.enlaces||{},juegos:x.juegos||{},otros:x.otros||[]};
+  var x=r[1]||{};extras={juegos:x.juegos||{}};
   construir();pintar();
   window.addEventListener('hashchange',pintar);
 }).catch(function(){
-  $('app').innerHTML='<div class="aviso"><span class="material-icons-outlined">error_outline</span><span>No se ha podido cargar datos.json. Abre la página desde GitHub Pages o un servidor local, no con doble clic.</span></div>';
+  $('app').innerHTML='<div class="aviso"><span class="material-icons-outlined">error_outline</span><span>No se pudo cargar datos.json.</span></div>';
 });
 })();
 </script>

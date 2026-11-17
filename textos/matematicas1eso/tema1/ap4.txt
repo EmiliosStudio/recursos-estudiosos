@@ -1,0 +1,17 @@
+Aproximar un número es sustituir ese número por otro más fácil de escribir (más corto), y posiblemente más fácil de recordar. Hay dos formas de aproximar:
+
+Redondeo: para redondear un número a un orden se mira la cifra siguiente. Si esa cifra es 5 o más, se suma 1 al orden. Y si esa cifra es menor de 5, el orden se quedaría igual.
+
+Ejemplos:
+
+1. 8__4__6 a las** decenas** ≈ 8__50__
+
+2. __8__46 a las **centenas** ≈ __80__0
+
+Truncamiento: truncar significa cortar. Para truncar a un ORDEN se corta el número en ese orden y se completa con ceros.
+
+Ejemplos:
+
+1. 8__67__ a las **decenas** ≈ 800
+
+2. __3__917 a las **unidades de millar** ≈ __30__00

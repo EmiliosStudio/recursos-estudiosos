@@ -1,0 +1,5 @@
+Calcular manualmente 8 · 8 · 8 · 8 · 8 · 8 · 8 = 8^7^ = 2.017.152
+
+- Calculadora __**NO**__ científica = 8 x = = = = = = = (7 veces igual) = 2.017.152
+
+- Calculadora __**SI**__ científica = 8 x^□^ / x^y^ / ^ 7 = 2.017.152

@@ -1,0 +1,11 @@
+Los ríos son corrientes de agua dulce y continua que circula por la superficie terrestre. Suelen desembocar en los mares u océanos, aunque también pueden terminar en otros ríos (siendo estos conocidos como afluentes). La estructura de un río es la siguiente: 
+
+- Curso alto: aquí sucede el nacimiento del río, debido a la acumulación de lluvia o al deshielo. Esto sucede en la parte más alta de una montaña. 
+
+- Curso medio: aquí es donde se desarrolla el río en sí, formándose lo que se conoce como caudal. Este puede ser... 
+
+     · Regular: si siempre lleva la misma cantidad de agua, o el mismo nivel 
+
+     · Irregular: si no lleva la misma cantidad de agua, o distinto nivel 
+
+- Curso bajo: el río desemboca en el mar u océano o en otro río. En esta parte se forma lo que se conoce como delta. 

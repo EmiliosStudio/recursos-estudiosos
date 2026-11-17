@@ -1,0 +1,5 @@
+El planeta Tierra tiene dos tipos de movimientos distintos, que dan lugar a diferentes fenómenos. Son los siguientes: 
+
+- Movimiento de rotación: es el que realiza la Tierra sobre sí misma de oeste a este (el cual dura 24 horas). Esto da lugar a la sucesión del día y la noche, los cambios del nivel del mar, y la diferencia horaria. 
+
+- Movimiento de traslación: es el que realiza la Tierra alrededor del Sol. Dura 365 días y 6 horas (por ello cada cuatro años existe el año bisiesto) y provoca el cambio de estación. Hay que diferenciar entre los **solsticios de verano e invierno** y los **equinocios de primavera y otoño**. 

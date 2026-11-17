@@ -1,0 +1,7 @@
+[fotos/bioclima_calidoytemplado.png]
+
+[fotos/bioclima_fr_oexcesocalor.png]
+
+[fotos/bioclima_excesofriomonta_a.png]
+
+[fotos/vegetacion_bioclimamonta_a.jpg]

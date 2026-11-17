@@ -1,0 +1,301 @@
+{
+  "cursos": [
+    {
+      "nombre": "1º ESO",
+      "asignaturas": [
+        {
+          "nombre": "Matemáticas",
+          "carpeta": "matematicas1eso",
+          "temas": [
+            {
+              "nombre": "Tema 1: Números Naturales",
+              "apartados": [
+                {
+                  "nombre": "Apartado 1: Sistemas de numeración",
+                  "archivo": "ap1.txt"
+                },
+                {
+                  "nombre": "Apartado 2: Algunas técnicas de conteo",
+                  "archivo": "ap2.txt"
+                },
+                {
+                  "nombre": "Apartado 3: Los números grandes",
+                  "archivo": "ap3.txt"
+                },
+                {
+                  "nombre": "Apartado 4: Aproximación de números naturales",
+                  "archivo": "ap4.txt"
+                },
+                {
+                  "nombre": "Apartado 5.1: La suma",
+                  "archivo": "ap5.1.txt"
+                },
+                {
+                  "nombre": "Apartado 5.2: La resta",
+                  "archivo": "ap5.2.txt"
+                },
+                {
+                  "nombre": "Apartado 5.3: La multiplicación",
+                  "archivo": "ap5.3.txt"
+                },
+                {
+                  "nombre": "Apartado 5.4: La división",
+                  "archivo": "ap5.4.txt"
+                },
+                {
+                  "nombre": "Apartado 5.5: Propiedad distributiva (para la multiplicación)",
+                  "archivo": "ap5.5.txt"
+                },
+                {
+                  "nombre": "Apartado 5.6: Propiedad distributiva (para la división)",
+                  "archivo": "ap5.6.txt"
+                },
+                {
+                  "nombre": "Apartado 6: Operaciones combinadas",
+                  "archivo": "ap6.txt"
+                },
+                {
+                  "nombre": "Juego resumen de las operaciones básicas",
+                  "archivo": "jres.txt"
+                }
+              ],
+              "carpeta": "tema1"
+            },
+            {
+              "nombre": "Tema 2: Raíces y potencias",
+              "carpeta": "tema2",
+              "apartados": [
+                {
+                  "nombre": "Apartado 1: Las potencias",
+                  "archivo": "ap1.txt"
+                },
+                {
+                  "nombre": "Apartado 1.1: El cuadrado y el cubo",
+                  "archivo": "ap1.1.txt"
+                },
+                {
+                  "nombre": "Apartado 1.2: Las potencias y la calculadora",
+                  "archivo": "ap1.2.txt"
+                },
+                {
+                  "nombre": "Apartado 1.3: Las potencias y las operaciones combinadas",
+                  "archivo": "ap1.3.txt"
+                },
+                {
+                  "nombre": "Apartado 2: Potencias de base 10",
+                  "archivo": "ap2.txt"
+                },
+                {
+                  "nombre": "Apartado 3: Operaciones con potencias",
+                  "archivo": "ap3.txt"
+                },
+                {
+                  "nombre": "Apartado 3.1: Potencia de un producto",
+                  "archivo": "ap3.1.txt"
+                },
+                {
+                  "nombre": "Apartado 3.2: Potencia de un cociente",
+                  "archivo": "ap3.2.txt"
+                },
+                {
+                  "nombre": "Apartado 3.3: Producto de potencias de la misma base",
+                  "archivo": "ap3.3.txt"
+                },
+                {
+                  "nombre": "Apartado 3.4: Cociente de potencias de la misma base",
+                  "archivo": "ap3.4.txt"
+                },
+                {
+                  "nombre": "Apartado 3.5: Potencia de una potencia",
+                  "archivo": "ap3.5.txt"
+                },
+                {
+                  "nombre": "Apartado 3.6: Potencias de exponente cero y uno",
+                  "archivo": "ap3.6.txt"
+                },
+                {
+                  "nombre": "Apartado 4: Raíz cuadrada",
+                  "archivo": "ap4.txt"
+                }
+              ]
+            },
+            {
+              "nombre": "Tema 3: Divisibilidad",
+              "carpeta": "tema3",
+              "apartados": [
+                {
+                  "nombre": "Apartado 1: La relación de divisibilidad",
+                  "archivo": "ap1.txt"
+                },
+                {
+                  "nombre": "Apartado 2: Los múltiplos y divisores de un número",
+                  "archivo": "ap2.txt"
+                },
+                {
+                  "nombre": "Apartado 2.1: Múltiplos",
+                  "archivo": "ap2.1.txt"
+                },
+                {
+                  "nombre": "Apartado 2.2: Divisores",
+                  "archivo": "ap2.2.txt"
+                },
+                {
+                  "nombre": "Apartado 2.3: Criterios de divisibilidad",
+                  "archivo": "ap2.3.txt"
+                },
+                {
+                  "nombre": "Apartado 3: Números primos y compuestos",
+                  "archivo": "ap3.txt"
+                },
+                {
+                  "nombre": "Apartado 4: Descomposición de un número en factores primos",
+                  "archivo": "ap4.txt"
+                },
+                {
+                  "nombre": "Apartado 5: Mínimo común múltiplo",
+                  "archivo": "ap5.txt"
+                },
+                {
+                  "nombre": "Apartado 6: Máximo común divisor",
+                  "archivo": "ap6.txt"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Geografía e Historia",
+          "carpeta": "geh1eso",
+          "temas": [
+            {
+              "nombre": "Tema 1: La Tierra y el Universo",
+              "carpeta": "tema1",
+              "apartados": [
+                {
+                  "nombre": "Apartado 1: El universo y el Sistema Solar",
+                  "archivo": "ap1.txt"
+                },
+                {
+                  "nombre": "Apartado 2: Los movimientos de la Tierra",
+                  "archivo": "ap2.txt"
+                },
+                {
+                  "nombre": "Apartado 3: Las coordenadas geográficas",
+                  "archivo": "ap3.txt"
+                },
+                {
+                  "nombre": "Apartado 4: La cartografía y los mapas",
+                  "archivo": "ap4.txt"
+                }
+              ]
+            },
+            {
+              "nombre": "Tema 2: El relieve",
+              "carpeta": "tema2",
+              "apartados": [
+                {
+                  "nombre": "Introducción: El relieve de la Tierra",
+                  "archivo": "int.txt"
+                },
+                {
+                  "nombre": "Apartado 1: La estructura interna de la Tierra",
+                  "archivo": "ap1.txt"
+                },
+                {
+                  "nombre": "Apartado 2: Las formas del relieve",
+                  "archivo": "ap2.txt"
+                },
+                {
+                  "nombre": "Apartado 3: Los agentes del relieve",
+                  "archivo": "ap3.txt"
+                }
+              ]
+            },
+            {
+              "nombre": "Tema 3: El agua en el mundo",
+              "carpeta": "tema3",
+              "apartados": [
+                {
+                  "nombre": "Apartado 1: La hidrosfera",
+                  "archivo": "ap1.txt"
+                },
+                {
+                  "nombre": "Apartado 2: Los océanos y mares",
+                  "archivo": "ap2.txt"
+                },
+                {
+                  "nombre": "Apartado 3: Los ríos",
+                  "archivo": "ap3.txt"
+                }
+              ]
+            },
+            {
+              "nombre": "Tema 4: Tiempo y clima",
+              "carpeta": "tema4",
+              "apartados": [
+                {
+                  "nombre": "Apartado 1: La atmósfera",
+                  "archivo": "ap1.txt"
+                },
+                {
+                  "nombre": "Apartado 2: El concepto de tiempo y clima",
+                  "archivo": "ap2.txt"
+                },
+                {
+                  "nombre": "Apartado 3: Factores y elementos climáticos",
+                  "archivo": "ap3.txt"
+                },
+                {
+                  "nombre": "Apartado 3.1: Factores climáticos",
+                  "archivo": "ap3.1.txt"
+                },
+                {
+                  "nombre": "Apartado 3.2: Elementos climáticos",
+                  "archivo": "ap3.2.txt"
+                },
+                {
+                  "nombre": "Resúmenes del tema",
+                  "archivo": "res.txt"
+                }
+              ]
+            },
+            {
+              "nombre": "Tema 5: Paisajes y conjuntos bioclimáticos",
+              "carpeta": "tema5",
+              "apartados": [
+                {
+                  "nombre": "Apartado 1: El concepto de paisaje",
+                  "archivo": "ap1.txt"
+                },
+                {
+                  "nombre": "Apartado 2: El sistema Köppen",
+                  "archivo": "ap2.txt"
+                },
+                {
+                  "nombre": "Apartado 3: Los grandes conjuntos bioclimáticos",
+                  "archivo": "ap3.txt"
+                },
+                {
+                  "nombre": "Apartado 3.1: Biomas forestales",
+                  "archivo": "ap3.1.txt"
+                },
+                {
+                  "nombre": "Apartado 3.2: Biomas no forestales",
+                  "archivo": "ap3.2.txt"
+                },
+                {
+                  "nombre": "Apartado 3.3: Biomas no zonables",
+                  "archivo": "ap3.3.txt"
+                },
+                {
+                  "nombre": "Resúmenes del tema",
+                  "archivo": "res.txt"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

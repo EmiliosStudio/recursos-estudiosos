@@ -1,0 +1,5 @@
+Para saber en qué punto exacto de la Tierra estamos, utilizamos las llamadas "Coordenadas geográficas" (las cuales se miden en grados, minutos y segundos). Dentro de las mismas, tenemos dos tipos, y también, dos formas diferentes de medirlas: 
+
+- Paralelos: son líneas imaginarias que cruzan la Tierra de oeste a este, y el más importante es el 0, es decir, el ecuador (el cual divide la Tierra en hemisferio norte y hemisferio sur). También tenemos otros como el trópico de Cáncer y Capricornio. Desde los paralelos, podemos medir la latitud. 
+
+- Meridianos: son líneas imaginarias que cruzan la Tierra de norte a sur, y la más importante, es el 0, es decir, el de Greenwich (el cual divide la Tierra en hemisferio oeste y hemisferio este). Desde los meridianos podemos medir la longitud. 

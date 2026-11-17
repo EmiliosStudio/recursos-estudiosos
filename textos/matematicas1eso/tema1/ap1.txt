@@ -1,0 +1,35 @@
+Los números naturales son 1, 2, 3... -7 o 4.5 no son naturales
+Los números sirven para contar, y se representan por ℕ
+Los números se escriben usando un sistema de numeración, que están formados por símbolos y normas para escribirlos. Por ejemplo, son los números romanos, egipcio, maya, o el sistema tradicional, el sistema de numeración decimal
+Hay dos tipos de sistemas de numeración:
+Aditivo: consiste en añadir símbolos, da igual el orden
+Posicional: un símbolo cambia de valor según la posición que ocupe.
+Veamos algunos de ellos:
+**Sistema egipcio**
+
+[fotos/egipcio.png]
+
+**Sistema maya**
+
+[fotos/maya.png]
+
+**Sistema romano**
+
+Seguramente, este fue el segundo sistema posicional que aprendiste, pero lo recordamos:
+
+I: 1
+V: 5
+X: 10
+L: 50
+C: 100
+D: 500
+M: 1000
+
+Pero, tenía algunas reglas, como estas:
+Suma: si un símbolo menor o igual está a la derecha de otro mayor, se suman (por ejemplo, VI: 6)
+Resta: Los símbolos I, X y C, colocados a la izquierda de uno mayor restan su valor:
+· I resta a V y X (IV: 4, IX: 9)
+· X resta a L y C (XL: 40, XC: 90)
+· C resta a D y M (CD: 400, CM: 900)
+Repetición: las letras I, X, C y M se pueden repetir un máximo de tres veces seguidas, mientras que las letras V, L y D no se pueden duplicar ni repetir.
+Multiplicación: una línea horizontal encima de un número multiplica su valor por 1000

@@ -1,0 +1,13 @@
+Una potencia es una multiplicación de un mismo factor varias veces.
+
+▢^▢^       Exponente
+
+Base
+
+- Base: es el factor que se multiplica a así mismo
+
+- Exponente: es el número de veces que se multiplica.
+
+Ejemplo: 5^7^ = 5 · 5 · 5 · 5 · 5 · 5 · 5
+
+¡Cuidado! 5^7^ ≠ 35      /      5^7^ ≠ 5 · 7

@@ -1,0 +1,11 @@
+Es frecuente confundir los términos "tiempo" y "clima", pero no son lo mismo. A continuación, podemos diferenciarlos:
+
+Tiempo: es el estado de la atmósfera en un lugar y momento concreto, prolongando como máximo unas semanas. La ciencia que estudia el tiempo es la meteorología.
+
+Clima: es el estado de la atmósfera, pero en un área más extensa y un espacio de tiempo más largo (meses e incluso años). La ciencia que estudia el clima es la climatología.
+
+Tanto tiempo como clima determinan nuestras vidas, como el ocio, la agricultora, los desastres naturales, la sequía, etc. Es por ello que se han desarrollado técnicas para predecirlos:
+
+Mapa del tiempo: nos indica el comportamiento atmosférico a corto plazo, a través de diversos medios como la televisión, páginas de internet, etc.
+
+Climograma: son representaciones gráficas de los climas en un año. En el gráfico aparecen una línea roja, que representa la temperatura, y unas barras azules, que representan las precipitaciones.

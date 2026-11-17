@@ -1,0 +1,13 @@
+__Jerarquía__ = 1. Paréntesis
+
+                       2. **Potencias**
+
+                       3. Multiplicaciones/divisiones de izquierda a derecha
+
+                       4. Sumas/restas de izquierda a derecha
+
+__Ejemplos__ = 2 + __3^2^__ · 4 = 2 + __9 · 4__ = __2 + 36__ = 38
+
+                      40 - (__5 + 1__)^2^ = 40 - __6__^__2__ ^= __40 - 36__ = 4
+
+                       5^2^ + (__3 + 1__) · 2 = __5^2^__ + 4 · 22 = 25 + __4 · 4__ = __25 + 16 __= 41

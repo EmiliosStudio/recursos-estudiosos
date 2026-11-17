@@ -1,0 +1,20 @@
+Si hay muchos datos, podemos usar las técnicas de conteo recuento, tablas (que pueden ser de doble entrada) o el diagrama de árbol.
+
+**1. El recuento: contar con orden**
+Cuando los datos empiezan a acumularse, lo primero que necesitamos hacer es contar cuántas veces se repite cada respuesta.
+¿Cómo se hace? La técnica más clásica y útil es ir tachando los datos de la lista desordenada y apuntarlos usando palotes (|). Cada vez que contamos cuatro palotes, el quinto lo cruzamos en diagonal (⌡ o ╫), formando grupos de 5.
+Para qué sirve: Nos permite pasar de un montón de datos sueltos a un número exacto (frecuencia) sin olvidarnos de ninguno ni contar dos veces el mismo.
+
+**2. Las tablas (y las de doble entrada)**
+Una vez que hemos hecho el recuento, lo siguiente es organizarlo todo en una tabla. Las tablas son como ficheros ordenados donde cada dato tiene su sitio exacto.
+Tablas sencillas: Colocamos en una columna lo que estudiamos (por ejemplo, los deportes: fútbol, baloncesto, natación) y en otra columna cuántas personas han elegido cada uno.
+¿Qué es una tabla de doble entrada? A veces queremos cruzar dos informaciones a la vez (dos variables). Por ejemplo, no solo queremos saber qué deporte gusta en 1º de la ESO, sino también si el deporte varía según la clase (1ºA o 1ºB) o entre chicos y chicas.
+En una tabla de doble entrada, las filas son una característica (ej. deportes) y las columnas son otra (ej. género o grupo). En las casillas del centro (la intersección) ponemos el número de personas que cumplen ambas condiciones a la vez. ¡Es súper útil para comparar!
+
+**3. El diagrama de árbol**
+Cuando el problema no es contar cuántas veces pasa algo, sino calcular cuántas combinaciones posibles existen, la mejor herramienta es el diagrama de árbol.
+¿Por qué se llama así? Porque se dibuja como si fuera un tronco que se divide en ramas, y esas ramas se vuelven a dividir en más ramitas.
+Un ejemplo clásico en 1º de la ESO: Imagina que tienes 2 pantalones (uno azul y otro negro) y 3 camisetas (blanca, roja y verde). ¿De cuántas formas distintas te puedes vestir?
+Dibujas el tronco principal con los dos pantalones.
+De cada pantalón sacas tres ramitas (una para cada color de camiseta).
+Al final de las ramitas cuentas los caminos totales: 2 pantalones x 3 camisetas = 6 conjuntos posibles. ¡Visualmente es imposible perderse!

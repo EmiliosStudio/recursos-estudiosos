@@ -1,0 +1,6 @@
+Los factores climáticos alteran e influyen los elementos climáticos. Podemos destacar los siguientes: 
+- Latitud: sería la distancia de un punto de la Tierra con respecto al Ecuador. Cuanto más cerca se esté del Ecuador, más cálidos son el tiempo y el clima, y cuanto más lejos, más frío hace. Esto da lugar a tres grandes zonas climáticas: cálida, templada y fría
+
+- Altitud: cuanto más se suba en altura, más frío hace (por estar más cerca de la atmósfera) y cuanto más lejos, más calor (el suelo hace de retenedor térmico). También en zonas altas hay más probabilidad de lluvia.
+
+- Distancia al mar: cuanto más cerca se esté del mar, la temperatura se vuelve más suave, ya que el agua ejerce de termostato. También la cercanía al mar aumenta la probabilidad de precipitación.

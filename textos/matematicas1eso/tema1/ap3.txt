@@ -1,0 +1,3 @@
+[fotos/numeros-grandes.png]
+
+Estos números los leemos de derecha a izquierda, y los vamos agrupando de tres en tres: mil, millón, mil, billón, mil, trillón...

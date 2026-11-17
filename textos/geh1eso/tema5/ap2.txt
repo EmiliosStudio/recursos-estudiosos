@@ -1,0 +1,7 @@
+A la hora de hacer una clasificación tanto de paisajes como de climas, podemos seguir varios criterios. En este caso vamos a seguir el sistema Köppen, el cual mezcla tres elementos para clasificar: temperatura, precipitación y vegetación. Esto como hemos estudiado, también estaba influido por la latitud y la distancia al mar. De esta forma encontramos tres grandes conjuntos bioclimáticos:
+
+- Bioclima forestal: tiene una gran cantidad de vegetación. A su vez se dividen en cálido, templado y frío.
+
+- Bioclima no forestal: tiene muy poca vegetación o no tiene. Encontramos dos: por exceso de frío y por exceso de calor.
+
+- Bioclima no zonable: es un bioclima que no se puede ubicar en un sitio concreto. Solo encontramos uno, que son las montañas.

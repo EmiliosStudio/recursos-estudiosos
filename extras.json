@@ -1,0 +1,88 @@
+{
+  "juegos": {
+    "geh1eso/tema1/ap1.txt": [
+      {
+        "titulo": "El universo y el Sistema Solar",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31150857-el_universo_y_el_sistema_solar.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31150857-el_universo_y_el_sistema_solar.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema1/ap2.txt": [
+      {
+        "titulo": "Los movimientos de la Tierra",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31155939-los_movimientos_de_la_tierra.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31155939-los_movimientos_de_la_tierra.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema1/ap3.txt": [
+      {
+        "titulo": "Las coordenadas geográficas",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31156949-las_coordenadas_geograficas.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31156949-las_coordenadas_geograficas.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema1/ap4.txt": [
+      {
+        "titulo": "La cartografía y los mapas",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31165274-la_cartografia_y_los_mapas.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31165274-la_cartografia_y_los_mapas.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema2/int.txt": [
+      {
+        "titulo": "El relieve de la Tierra: Los continentes",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31170286-el_relieve_de_la_tierra_los_continentes.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31170286-el_relieve_de_la_tierra_los_continentes.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema2/ap1.txt": [
+      {
+        "titulo": "La estructura interna de la Tierra",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31172578-la_estructura_interna_de_la_tierra.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31172578-la_estructura_interna_de_la_tierra.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema2/ap2.txt": [
+      {
+        "titulo": "Las formas del relieve",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31173808-las_formas_del_relieve.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31173808-las_formas_del_relieve.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema2/ap3.txt": [
+      {
+        "titulo": "Los agentes del relieve",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31175854-los_agentes_del_relieve.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31175854-los_agentes_del_relieve.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema3/ap2.txt": [
+      {
+        "titulo": "Los océanos y mares",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31185304-los_oceanos.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31185304-los_oceanos.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema3/ap1.txt": [
+      {
+        "titulo": "La hidrosfera: El ciclo del agua",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31176735-la_hidrosfera.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31176735-la_hidrosfera.html\"></iframe>"
+      }
+    ],
+    "geh1eso/tema3/ap3.txt": [
+      {
+        "titulo": "Los ríos",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31190488-los_rios.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31190488-los_rios.html\"></iframe>"
+      }
+    ],
+    "matematicas1eso/tema1/jres.txt": [
+      {
+        "titulo": "Operaciones básicas con números naturales",
+        "enlace": "https://es.educaplay.com/recursos-educativos/31401503-operaciones.html",
+        "url": "<iframe allow=\"fullscreen; autoplay; allow-top-navigation-by-user-activation\" allowfullscreen width=\"795\" height=\"690\" frameborder=\"0\" src=\"https://es.educaplay.com/juego/31401503-operaciones.html\"></iframe>"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+La cartografía es la ciencia que estudia los mapas, mientras que un mapa es una representación gráfica de la Tierra. Para representar la Tierra se utilizan proyecciones, destacando las siguientes: 
+
+- Proyección cilíndrica: se utiliza para los mapamundi 
+
+- Proyección cónica: para latitudes medias 
+
+- Proyección circular: para los hemisferios 
+
+También tenemos distintos tipos de mapas: 
+
+- Mapas topográficos: muestran el aspecto físico de la Tierra (montañas, ríos, mares, vegetación, etc) 
+
+- Mapas temáticos: muestran diversos temas como el clima, la demografía, la historia, etc. 

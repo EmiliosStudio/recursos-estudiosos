@@ -1,0 +1,11 @@
+La relación de los distintos elementos climáticos es la que hace posible el propio tiempo y clima. Destacamos las siguientes: 
+
+- Temperatura: es el grado de calentamiento que tiene la atmósfera, y se mide a través de grados centígrados con el termómetro. Diferenciamos entre temperatura absoluta (máxima y mínima), media (de una semana o un mes) y amplitud térmica (diferencia de máxima y mínima).
+
+- Precipitación: es la cantidad de agua que cae en la superficie terrestre. Según la temperatura, puede ser en forma de agua, aguanieve, nieve o granizo. Se mide con el pluviómetro.
+
+- Presión atmosférica: es la fuerza que ejerce la atmósfera sobre la superficie terrestre, y se mide con el barómetro. Podemos diferenciar entre altas presiones o anticiclones (por encima de 1013 milibares y repele las nubes) y bajas presiones o borrascas (por debajo de 1013 milibares y atrae las nubes).
+
+- Viento: es el movimiento del aire de la atmósfera y dependiendo de su intensidad puede ir de la brisa al tifón. La fuerza del viento se mide con el anemómetro, y la dirección con la veleta. Existen vientos planetarios, estacionales y locales.
+
+- Humedad: es el grado de vapor de agua que hay en la atmósfera, procedente de mares, ríos, etc. Se mide con el higrómetro.

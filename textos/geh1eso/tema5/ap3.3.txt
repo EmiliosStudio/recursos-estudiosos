@@ -1,16 +1,4 @@
-Solamente encontramos un bioclima no zonable, que es el de montaña. Su
-
- temperatura 
-
-disminuye con la altura, y hay una gran diferencia entre la solana (parte donde da el sol) y la umbría (parte donde da la sombra). Las 
-
-precipitaciones 
-
-son abundantes y en la cima cae en forma de nieve. La 
-
-fauna 
-
-está compuesta por especies como el oso, la cabra montesa, el buitre, el puma, etc.
+Solamente encontramos un bioclima no zonable, que es el de montaña. Su **temperatura **disminuye con la altura, y hay una gran diferencia entre la solana (parte donde da el sol) y la umbría (parte donde da la sombra). Las **precipitaciones **son abundantes y en la cima cae en forma de nieve. La fauna está compuesta por especies como el oso, la cabra montesa, el buitre, el puma, etc.
 
 Mención especial merece la ***vegetación**, la cual se divide en pisos. Cuando más ascendamos, menos vegetación hay:
 

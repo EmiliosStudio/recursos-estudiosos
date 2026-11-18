@@ -53,10 +53,6 @@
                 {
                   "nombre": "Apartado 6: Operaciones combinadas",
                   "archivo": "ap6.txt"
-                },
-                {
-                  "nombre": "Juego resumen de las operaciones básicas",
-                  "archivo": "jres.txt"
                 }
               ],
               "carpeta": "tema1"
@@ -116,48 +112,6 @@
                 {
                   "nombre": "Apartado 4: Raíz cuadrada",
                   "archivo": "ap4.txt"
-                }
-              ]
-            },
-            {
-              "nombre": "Tema 3: Divisibilidad",
-              "carpeta": "tema3",
-              "apartados": [
-                {
-                  "nombre": "Apartado 1: La relación de divisibilidad",
-                  "archivo": "ap1.txt"
-                },
-                {
-                  "nombre": "Apartado 2: Los múltiplos y divisores de un número",
-                  "archivo": "ap2.txt"
-                },
-                {
-                  "nombre": "Apartado 2.1: Múltiplos",
-                  "archivo": "ap2.1.txt"
-                },
-                {
-                  "nombre": "Apartado 2.2: Divisores",
-                  "archivo": "ap2.2.txt"
-                },
-                {
-                  "nombre": "Apartado 2.3: Criterios de divisibilidad",
-                  "archivo": "ap2.3.txt"
-                },
-                {
-                  "nombre": "Apartado 3: Números primos y compuestos",
-                  "archivo": "ap3.txt"
-                },
-                {
-                  "nombre": "Apartado 4: Descomposición de un número en factores primos",
-                  "archivo": "ap4.txt"
-                },
-                {
-                  "nombre": "Apartado 5: Mínimo común múltiplo",
-                  "archivo": "ap5.txt"
-                },
-                {
-                  "nombre": "Apartado 6: Máximo común divisor",
-                  "archivo": "ap6.txt"
                 }
               ]
             }
@@ -252,10 +206,6 @@
                 {
                   "nombre": "Apartado 3.2: Elementos climáticos",
                   "archivo": "ap3.2.txt"
-                },
-                {
-                  "nombre": "Resúmenes del tema",
-                  "archivo": "res.txt"
                 }
               ]
             },
